@@ -31,5 +31,5 @@ jobs:
           AWS_REGION: us-east-1
         run: |
           pip install awsebcli
-          eb init -p node.js --region $AWS_REGION my-nextjs-app
-          eb deploy my-nextjs-app-env
+          eb init -p node.js --region $AWS_REGION front-souzalabs
+          eb deploy front-souzalabs
